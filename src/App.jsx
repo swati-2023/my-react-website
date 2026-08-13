@@ -9,12 +9,17 @@ import './font-awesome-pro.css'
 import './spacing.css'
 import './main.css'
 import Home from './Home'
+import About from './about'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 

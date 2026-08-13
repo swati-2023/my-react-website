@@ -1,6 +1,7 @@
 import React from 'react'
 import Nav from './Nav'
 import Header from './Header'
+import Footer from './footer'
 import firstslider from './assets/images/firstslider.jpg'
 
 function Home() {
@@ -134,9 +135,7 @@ function Home() {
         </div>
       </div>
 
-      <footer className="site-footer">
-        <p>© {new Date().getFullYear()} Crushaders Tech</p>
-      </footer>
+      <Footer/>
     </div>
   )
 }

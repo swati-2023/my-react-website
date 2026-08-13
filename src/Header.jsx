@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import logo from './assets/images/logo.png'
 
 function Header() {
@@ -10,9 +11,9 @@ function Header() {
                <div class="row align-items-center">
                   <div class="col-lg-2 col-md-6 col-6">
                      <div class="logo">
-                        <a href="index.html">
+                        <Link to="/">
                            <img src={logo} alt="logo" />
-                        </a>
+                        </Link>
                      </div>
                   </div>
                   <div class="col-lg-10 col-md-6 col-6">
@@ -29,7 +30,7 @@ function Header() {
                                     </ul>
                                  </li>
                                  <li>
-                                    <a href="about.html">About</a>
+                                    <Link to="/about">About</Link>
                                  </li>
                                  <li class="has-dropdown">
                                     <a href="portfolio.html">Projects</a>
