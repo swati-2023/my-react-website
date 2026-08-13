@@ -93,7 +93,7 @@ function Home() {
                   <div className="col-xxl-6 col-xl-8 col-lg-8 col-md-10">
                     <div className="bd-slider__content">
                       <span className="bd-slider__subtitle" data-animation="fadeInUp" data-delay=".3s">We are
-                        creative inc.</span>
+                        creative</span>
                       <h3 className="bd-slider__title" data-animation="fadeInUp" data-delay=".5s">Clean Simple &
                         Minimal</h3>
                       <p data-animation="fadeInUp" data-delay=".7s">Lorem ipsum dolor sit amet consmod tempor
